@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(252 252 252);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+a{
+    text-decoration: solid;
+    align-content: center;
+}
+@media screen and (max-width:600px){
+.row,.navbar{
+    flex-direction: row;
+}
+}
+@media screen and (min-width:1204px){
+    .row,.navbar{
+        flex-direction: row;
+    }
+}
